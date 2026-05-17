@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Alho | Back-End Developer Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased selection:bg-teal-500 selection:text-slate-900">
+
+    <!-- Header / Navigation -->
+    <header class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold tracking-wider text-teal-400">LUIS<span class="text-slate-400">ALHO</span></a>
+            <nav class="flex space-x-6 text-sm font-medium text-slate-400">
+                <a href="#about" class="hover:text-teal-400 transition-colors">About</a>
+                <a href="#skills" class="hover:text-teal-400 transition-colors">Skills</a>
+                <a href="#projects" class="hover:text-teal-400 transition-colors">Projects</a>
+                <a href="#contact" class="hover:text-teal-400 transition-colors">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="about" class="py-20 max-w-5xl mx-auto px-6 min-h-[70vh] flex flex-col justify-center">
+        <p class="text-teal-400 font-mono mb-3 text-sm tracking-widest">HI, MY NAME IS</p>
+        <h1 class="text-5xl md:text-7xl font-extrabold text-slate-100 mb-4 tracking-tight">Luis Alho.</h1>
+        <h2 class="text-3xl md:text-5xl font-bold text-slate-400 mb-6">I build scalable Back-End systems.</h2>
+        <p class="text-slate-400 max-w-xl text-lg leading-relaxed mb-8">
+            I am a Software Developer specializing in the Java ecosystem, currently building robust REST APIs and distributed systems using <span class="text-teal-400 font-semibold">Spring Boot</span> and <span class="text-teal-400 font-semibold">Microservices</span>. Right now, I'm expanding my DevOps toolkit with <span class="text-teal-400 font-semibold">Docker</span> and advanced Git workflows.
+        </p>
+        <div class="flex space-x-4">
+            <a href="#projects" class="px-6 py-3 border border-teal-400 text-teal-400 rounded hover:bg-teal-400/10 transition-all font-medium text-sm">View My Work</a>
+            <a href="#contact" class="px-6 py-3 bg-teal-500 text-slate-950 rounded hover:bg-teal-400 transition-all font-semibold text-sm">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 border-t border-slate-800 bg-slate-950/30">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-slate-100 mb-12 flex items-center"><span class="text-teal-400 font-mono text-xl mr-2">01.</span> Tech Stack</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="p-6 bg-slate-950 border border-slate-800 rounded-lg shadow-xl">
+                    <div class="text-teal-400 text-2xl mb-4"><i class="fa-brands fa-java"></i></div>
+                    <h3 class="text-xl font-bold mb-3">Core & Frameworks</h3>
+                    <ul class="text-slate-400 space-y-2 text-sm font-mono">
+                        <li><i class="fa-solid fa-caret-right text-teal-400 mr-2"></i>Java</li>
+                        <li><i class="fa-solid fa-caret-right text-teal-400 mr-2"></i>Spring Boot</li>
+                        <li><i class="fa-solid fa-caret-right text-teal-400 mr-2"></i>Spring Data JPA</li>
+                        <li><i class="fa-solid fa-caret-right text-teal-400 mr-2"></i>Spring Security</li>
+                    </ul>
+                </div>
+                <!-- Card 2 -->
+                <div class="p-6 bg-slate-950 border border-slate-800 rounded-lg shadow-xl">
+                    <div class="text-teal-400 text-2xl mb-4"><i class="fa-solid fa-network-wired"></i></div>
+                    <h3 class="text-xl font-bold mb-3">Architecture & DBs</h3>
+                    <ul class="text-slate-400 space-y-2 text-sm font-mono">
+                        <li><i class="fa-solid fa-caret-right text-teal-400 mr-2"></i>Microservices</li>
+                        <li><i class="fa-solid fa-caret-right text-teal-400 mr-2"></i>REST APIs</li>
+                        <li><i class="fa-solid fa-caret-right text-teal-400 mr-2"></i>PostgreSQL</li>
+                        <li><i class="fa-solid fa-caret-right text-teal-400 mr-2"></i>MySQL</li>
+                    </ul>
+                </div>
+                <!-- Card 3 -->
+                <div class="p-6 bg-slate-950 border border-slate-800 rounded-lg shadow-xl">
+                    <div class="text-teal-400 text-2xl mb-4"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <h3 class="text-xl font-bold mb-3">Tools & DevOps</h3>
+                    <p class="text-xs text-teal-400/70 font-mono mb-2">Currently Mastering:</p>
+                    <ul class="text-slate-400 space-y-2 text-sm font-mono">
+                        <li><i class="fa-solid fa-caret-right text-teal-400 mr-2"></i>Docker <span class="text-xs text-teal-400">(Learning)</span></li>
+                        <li><i class="fa-solid fa-caret-right text-teal-400 mr-2"></i>Git & GitHub <span class="text-xs text-teal-400">(Learning)</span></li>
+                        <li><i class="fa-solid fa-caret-right text-teal-400 mr-2"></i>Maven</li>
+                        <li><i class="fa-solid fa-caret-right text-teal-400 mr-2"></i>JUnit 5 & Mockito</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 border-t border-slate-800">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-slate-100 mb-12 flex items-center"><span class="text-teal-400 font-mono text-xl mr-2">02.</span> Featured Projects</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Projeto Exemplo 1 -->
+                <div class="bg-slate-950 border border-slate-800 p-6 rounded-lg hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="flex justify-between items-center mb-6">
+                            <div class="text-3xl text-teal-400"><i class="fa-regular fa-folder"></i></div>
+                            <div class="flex space-x-4 text-slate-400 text-xl">
+                                <a href="#" class="hover:text-teal-400 transition-colors"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-100 group-hover:text-teal-400 transition-colors mb-2">E-Commerce Microservices</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            A distributed e-commerce backend platform built with Spring Cloud, handles product catalog, order processing, and payment service integration.
+                        </p>
+                    </div>
+                    <div class="text-xs font-mono text-slate-500 space-x-3 mt-4">
+                        <span>Spring Boot</span>
+                        <span>PostgreSQL</span>
+                        <span>Docker</span>
+                    </div>
+                </div>
+
+                <!-- Projeto Exemplo 2 -->
+                <div class="bg-slate-950 border border-slate-800 p-6 rounded-lg hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="flex justify-between items-center mb-6">
+                            <div class="text-3xl text-teal-400"><i class="fa-regular fa-folder"></i></div>
+                            <div class="flex space-x-4 text-slate-400 text-xl">
+                                <a href="#" class="hover:text-teal-400 transition-colors"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-100 group-hover:text-teal-400 transition-colors mb-2">Task Management REST API</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            A secure REST API developed for enterprise project planning. Implements role-based access control (RBAC) via Spring Security.
+                        </p>
+                    </div>
+                    <div class="text-xs font-mono text-slate-500 space-x-3 mt-4">
+                        <span>Java</span>
+                        <span>Spring Security</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 border-t border-slate-800 text-center bg-slate-950/20">
+        <div class="max-w-md mx-auto px-6">
+            <p class="text-teal-400 font-mono text-sm tracking-widest mb-3">03. WHAT'S NEXT?</p>
+            <h2 class="text-4xl font-bold text-slate-100 mb-4">Get In Touch</h2>
+            <p class="text-slate-400 text-sm leading-relaxed mb-8">
+                I'm currently looking for new opportunities as a Back-End Developer. Whether you have a question or just want to talk shop, my inbox is open!
+            </p>
+            <a href="mailto:your.email@example.com" class="px-8 py-4 border border-teal-400 text-teal-400 font-medium rounded hover:bg-teal-400/10 transition-all font-mono inline-block">
+                Say Hello
+            </a>
+            
+            <!-- Redes Sociais -->
+            <div class="flex justify-center space-x-6 mt-12 text-2xl text-slate-400">
+                <a href="#" class="hover:text-teal-400 transition-colors"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="hover:text-teal-400 transition-colors"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 border-t border-slate-900 bg-slate-950 text-center text-xs text-slate-500 font-mono">
+        <p>Designed & Built by Luis Alho © 2026</p>
+    </footer>
+
+</body>
+</html>
